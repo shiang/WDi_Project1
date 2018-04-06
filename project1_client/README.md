@@ -60,6 +60,8 @@ This should return you a jwt token from the HTTP response which you can use in y
 ---
 - [ ] Rating system
 - [ ] My favorites
+- [ ] Restaurant/Menu/MenuItem categories
+- [ ] Search function for Restaurants/Menus (by address, categories, name...etc)
 - [ ] Image uploads and multiple images per restaurant/menu/menu-item
 - [ ] Better error handling
 - [ ] Persisted app state

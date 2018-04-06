@@ -12,6 +12,7 @@ This is the second project for the GA WDi26 course. This project is split into t
 ## Possible future roadmap
 ---
 Please refer to the client app repository
+
 ## License
 ---
 MIT
