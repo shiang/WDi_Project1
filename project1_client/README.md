@@ -36,6 +36,9 @@ It is consisted of 5 models:
 - MenuItem
 
 If you would like to build your own app that works with the backend mentioned above, simply make a HTTP POST request to below link with info below in the HTTP header
+
+`https://restaurantportal.herokuapp.com/api/v1/user_token`
+
 ```
 auth: {
   email: [THE EMAIL YOU USED FROM SIGN UP],
