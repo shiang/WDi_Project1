@@ -5,6 +5,8 @@ This is the second project for the GA WDi course. This project is split into two
 
 It provides functionalities that manages restaurant and its menu information such as menu images, and pricing...etc.
 
+See live demo here: https://restaurantportalclient.herokuapp.com/restaurants
+
 ---
 
 ## Client (React)
@@ -51,11 +53,7 @@ auth: {
 
 This should return you a jwt token from the HTTP response which you can use in your app in order to use the API.
 
-### App and API endpoints
-Restaurant Management Portal
-Client app: https://restaurantportalclient.herokuapp.com/restaurants
-
-Server API endpoints:
+### API endpoints
 
 https://restaurantportal.herokuapp.com/api/v1/restaurants
 (Restaurants)
@@ -89,16 +87,19 @@ https://restaurantportal.herokuapp.com/api/v1/menu_items
 - [ ] Order function with payment integrated
 - [ ] Social login
 - [ ] Live chat support
+
 ---
 
 ## Server (Rails)
 ### Special thanks to below gems that I used for this project
-- Active Model Serializer (for serialzing data into JSON format)
+- Active Model Serializer (for serializing data into JSON format)
 - Knock (For token based authentication and token generation)
 - Faker (Generating bunch of seed data in a short time)
 
 ---
 
 ### License
+
 ---
+
 MIT
