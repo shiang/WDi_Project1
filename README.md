@@ -1,30 +1,20 @@
 ## GA WDi26 Project 1
-Restaurant Management Portal
-Client app: https://restaurantportalclient.herokuapp.com/restaurants
-Server API:
-(Restaurants)
-https://restaurantportal.herokuapp.com/api/v1/restaurants
-(Menus)
-https://restaurantportal.herokuapp.com/api/v1/menus
-(MenuItems)
-https://restaurantportal.herokuapp.com/api/v1/menu_items
----
 This is the second project for the GA WDi course. This project is split into two parts, the client side of the app and the server side of the app. This repository is the client side app which was built in React that works with the server side of the app that was built in Rails.
 
 This project is a standard CRUD app that that manages restaurant and its menu information such as menu images, and pricing...etc.
-
-### Client (Client)
-
-## Installation
 ---
+
+## Client (Client)
+
+### Installation
 To run this app, run the following command after the git clone (or after downloading the repo)
 
 ```
 npm install
 ```
-
-## To run the app
 ---
+
+### To run the app
 After installing the dependencies of the app, simply run the following command to start the app:
 
 ```
@@ -33,8 +23,7 @@ npm start
 It should automatically open the app in the browser which default to run on http://localhost:3000
 
 
-## Note
----
+### Note
 Because this app only works with the backend built specifically for it. It is suggested to first go to the sign up page and sign up an account and log in in order to use all the features available.
 
 FYI: the server is at https://restaurantportal.herokuapp.com/api/v1/restaurants
@@ -58,9 +47,20 @@ auth: {
 ```
 
 This should return you a jwt token from the HTTP response which you can use in your app in order to use the API.
-
-## Specially thanks to below awesome open source software that helped me build this apps
 ---
+Restaurant Management Portal
+Client app: https://restaurantportalclient.herokuapp.com/restaurants
+
+Server API endpoints:
+(Restaurants)
+https://restaurantportal.herokuapp.com/api/v1/restaurants
+(Menus)
+https://restaurantportal.herokuapp.com/api/v1/menus
+(MenuItems)
+https://restaurantportal.herokuapp.com/api/v1/menu_items
+---
+
+### Specially thanks to below awesome open source software that helped me build this apps
 - React router
 - Redux
 - Redux Form
@@ -70,8 +70,7 @@ This should return you a jwt token from the HTTP response which you can use in y
 - redux-thunk
 - axios
 
-## Imaginary roadmap (again!!)
----
+### Imaginary roadmap (again!!)
 - [ ] Rating system
 - [ ] My favorites
 - [ ] Restaurant/Menu/MenuItem categories
@@ -84,18 +83,17 @@ This should return you a jwt token from the HTTP response which you can use in y
 - [ ] Live chat support
 ---
 
-### Server (Rails)
----
-## Special thanks to below gems that I used for this project
----
+## Server (Rails)
+### Special thanks to below gems that I used for this project
 - Active Model Serializer (for serialzing data into JSON format)
 - Knock (For token based authentication and token generation)
 - Faker (Generating bunch of seed data in a short time)
 
-## Possible future roadmap
 ---
-Please refer to the (client app repository)[#Client]
 
-## License
+### Possible future roadmap
+Please refer to the [client app repository](#client)
+
+### License
 ---
 MIT
