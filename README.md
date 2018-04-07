@@ -64,6 +64,7 @@ https://restaurantportal.herokuapp.com/api/v1/menus
 
 https://restaurantportal.herokuapp.com/api/v1/menu_items
 (MenuItems)
+
 ---
 
 ### Specially thanks to below awesome open source software that helped me build this apps
