@@ -1,7 +1,9 @@
 ## GA WDi26 Project 1
-This is the second project for the GA WDi course. This project is split into two parts, the client side of the app and the server side of the app. This repository is the client side app which was built in React that works with the server side of the app that was built in Rails.
+This is the second project for the GA WDi course. This project is split into two parts, the client side of the app and the server side of the app:
+- Client app built in React  
+- CRUD API built in Rails
 
-This project is a standard CRUD app that that manages restaurant and its menu information such as menu images, and pricing...etc.
+It provides functionalities that manages restaurant and its menu information such as menu images, and pricing...etc.
 ---
 
 ## Client (Client)
@@ -47,17 +49,21 @@ auth: {
 ```
 
 This should return you a jwt token from the HTTP response which you can use in your app in order to use the API.
----
+
+### App and API endpoints
 Restaurant Management Portal
 Client app: https://restaurantportalclient.herokuapp.com/restaurants
 
 Server API endpoints:
-(Restaurants)
+
 https://restaurantportal.herokuapp.com/api/v1/restaurants
-(Menus)
+(Restaurants)
+
 https://restaurantportal.herokuapp.com/api/v1/menus
-(MenuItems)
+(Menus)
+
 https://restaurantportal.herokuapp.com/api/v1/menu_items
+(MenuItems)
 ---
 
 ### Specially thanks to below awesome open source software that helped me build this apps
