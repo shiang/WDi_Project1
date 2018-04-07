@@ -7,7 +7,7 @@ It provides functionalities that manages restaurant and its menu information suc
 
 ---
 
-## [Client](#client) (React)
+## Client (React)
 
 ### Installation
 To run this app, run the following command after the git clone (or after downloading the repo)
@@ -98,9 +98,6 @@ https://restaurantportal.herokuapp.com/api/v1/menu_items
 - Faker (Generating bunch of seed data in a short time)
 
 ---
-
-### Possible future roadmap
-Please refer to the [client app repository](#client)
 
 ### License
 ---
