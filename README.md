@@ -4,9 +4,10 @@ This is the second project for the GA WDi course. This project is split into two
 - CRUD API built in Rails
 
 It provides functionalities that manages restaurant and its menu information such as menu images, and pricing...etc.
+
 ---
 
-## Client (Client)
+## [Client](#client) (React)
 
 ### Installation
 To run this app, run the following command after the git clone (or after downloading the repo)
